@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Carga el archivo CSV con la codificación 'latin1'
 df = pd.read_csv('CDMX.csv', encoding='latin1')
 
 # 1. Registros de 5 "host name" diferentes
